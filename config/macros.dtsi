@@ -1,3 +1,21 @@
+macro_find: macro_find{
+compatible = "zmk,behavior-macro";
+label = "macro_find";
+#binding-cells = <0>;
+bindings = <&kp LEFT_CONTROL>, <&kp F>;
+};
+macro_last_win: macro_last_win{
+compatible = "zmk,behavior-macro";
+label = "macro_last_win";
+#binding-cells = <0>;
+bindings = <&kp LEFT_CONTROL>, <&kp LEFT_WIN>, <&kp LEFT_ARROW>;
+};
+macro_next_win: macro_next_win{
+compatible = "zmk,behavior-macro";
+label = "macro_next_win";
+#binding-cells = <0>;
+bindings = <&kp LEFT_CONTROL>, <&kp LEFT_WIN>, <&kp RIGHT_ARROW>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
