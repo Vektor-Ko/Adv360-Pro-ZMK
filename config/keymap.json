@@ -7,15 +7,16 @@
     "keypad",
     "fn",
     "mod",
-    "Symbols"
+    "Symbols",
+    "Navigation"
   ],
   "layers": [
     [
          "&kp ESCAPE",           "&kp N1",       "&kp N2",       "&kp N3",           "&kp N4", "&kp N5",                    "&tog 1",                                                                                  "&mo 3", "&kp N6", "&kp N7",   "&kp N8",   "&kp N9",   "&kp N0", "&macro_find",
-            "&kp TAB", "&kp SINGLE_QUOTE",    "&kp COMMA",   "&kp PERIOD",            "&kp P",  "&kp Y",           "&macro_last_win",                                                                        "&macro_next_win",  "&kp F",  "&kp G",    "&kp C",    "&kp R",    "&kp L",    "&kp BSLH",
+            "&kp TAB", "&kp SINGLE_QUOTE",    "&kp COMMA",   "&kp PERIOD",            "&kp P",  "&kp Y",           "&macro_last_win",                                                                        "&macro_next_win",  "&kp F",  "&kp G",    "&kp C",    "&kp R",    "&kp L",  "&kp DELETE",
        "&kp CAPSLOCK",            "&kp A",        "&kp O",        "&kp E",            "&kp U",  "&kp I",                     "&none", "&kp LCTRL", "&kp LALT",  "&none",  "&none",  "&kp LGUI", "&kp RCTRL",           "&none",  "&kp D",  "&kp H",    "&kp T",    "&kp N",    "&kp S",     "&kp SQT",
           "&kp LSHFT",    "&kp SEMICOLON",        "&kp Q",        "&kp J",            "&kp K",  "&kp X",                     "&none",     "&none", "&kp HOME",  "&none",  "&none", "&kp PG_UP",     "&none",           "&none",  "&kp B",  "&kp M",    "&kp W",    "&kp V",    "&kp Z",   "&kp RSHFT",
-              "&mo 2",        "&kp GRAVE", "&kp LEFT_ALT", "&kp LEFT_WIN", "&kp LEFT_CONTROL",                           "&kp SPACE",   "&kp DEL",  "&kp END",                     "&kp PG_DN", "&kp ENTER",   "&kp BACKSPACE",            "&mo 4", "&kp DOWN", "&kp LBKT", "&kp RBKT",       "&mo 2"
+              "&mo 2",        "&kp GRAVE", "&kp LEFT_ALT", "&kp LEFT_WIN", "&kp LEFT_CONTROL",                           "&kp SPACE",     "&mo 5",  "&kp END",                     "&kp PG_DN", "&kp ENTER",   "&kp BACKSPACE",            "&mo 4", "&kp DOWN", "&kp LBKT", "&kp RBKT",       "&mo 2"
     ], [
        "&kp EQUAL",    "&kp N1",   "&kp N2",   "&kp N3",    "&kp N4", "&kp N5",             "&trans",                                                                            "&mo 3", "&kp N6", "&kp KP_NUM", "&kp KP_EQUAL", "&kp KP_DIVIDE", "&kp KP_MULTIPLY", "&kp MINUS",
          "&kp TAB",     "&kp Q",    "&kp W",    "&kp E",     "&kp R",  "&kp T",              "&none",                                                                            "&none",  "&kp Y",  "&kp KP_N7",    "&kp KP_N8",     "&kp KP_N9",    "&kp KP_MINUS",  "&kp BSLH",
@@ -39,7 +40,13 @@
        "&trans",         "&kp PLUS",         "&kp MINUS",            "&kp EQUAL",       "&kp EXCLAMATION",  "&kp QUESTION",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&kp LEFT_BRACKET", "&kp RIGHT_BRACKET", "&kp LEFT_PARENTHESIS", "&kp RIGHT_PARENTHESIS",  "&kp ASTERISK",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans",      "&kp PERCENT",        "&kp DOLLAR",       "&kp LEFT_BRACE",       "&kp RIGHT_BRACE", "&kp AMPERSAND",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans",           "&trans",            "&trans",                "&none",                 "&none",                            "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
+       "&trans",           "&trans",            "&trans",            "&kp SLASH",         "&kp BACKSLASH",                            "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
+    ], [
+       "&trans", "&trans", "&trans",         "&trans",         "&trans",          "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans",         "&trans",   "&kp UP_ARROW",          "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&kp LEFT_ARROW", "&kp DOWN_ARROW", "&kp RIGHT_ARROW",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans",         "&trans",         "&trans",          "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans",         "&trans",         "&trans",                              "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
     ]
   ]
 }
