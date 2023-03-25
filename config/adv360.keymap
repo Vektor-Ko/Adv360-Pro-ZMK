@@ -79,7 +79,7 @@
 
         layer_Symbols {
             bindings = <
- &trans         &kp CARET             &kp AT             &kp POUND                 &trans         &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans         &kp CARET             &kp AT             &kp POUND              &kp TILDE         &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans          &kp PLUS          &kp MINUS             &kp EQUAL        &kp EXCLAMATION   &kp QUESTION            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS   &kp ASTERISK            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans       &kp PERCENT         &kp DOLLAR        &kp LEFT_BRACE        &kp RIGHT_BRACE  &kp AMPERSAND            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
